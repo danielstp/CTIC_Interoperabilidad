@@ -2,25 +2,52 @@
 Interoperabilidad
 #################
 
-La interoperabilidad es una característica de un producto o sistema, cuyos
-medios de operación se conocen completamente, para trabajar con otros productos
-o sistemas, presente o futuro, ya sea en ejecución o acceso, sin ningún tipo de
-restricciones
+La interoperabilidad es la capacidad que tiene un producto o un sistema, cuyas
+interfaces son totalmente conocidas, para funcionar con otros productos o
+sistemas existentes o futuros y eso sin restricción de acceso o de
+implementación.
+
+:Traducción: Pascal Chevre
+
+La interoperabilidad puede ser vista como la capacidad de las entidades de
+trabajar articuladamente con las demás, en pro de lograr el intercambio
+eficiente, simple y seguro de datos.
+
+.. image:: Imágenes/Interoperabilidad.png
+  :width: 85%
 
 interoperabilidad semántica
 ***************************
 
-Más allá de la capacidad de dos o más sistemas informáticos para el intercambio
-de información, la interoperabilidad semántica, es la capacidad de interpretar
-de forma automática la información intercambiada, de manera significativa y con
-precisión con el fin de producir resultados útiles tal como se define por los
-usuarios finales de ambos sistemas. Para lograr la interoperabilidad semántica,
-ambas partes deben hacer referencia a un **modelo de referencia común** de
-intercambio de información. El contenido de las solicitudes de intercambio de
-información se define sin ambigüedades: lo que se envía es lo mismo que lo que
-se entiende. La posibilidad de promover este resultado por la convergencia
-guiado por el usuario de interpretaciones dispares de la misma información ha
-sido objeto de estudio por los prototipos de investigación tales como S3DB.
+La interoperabilidad semántica es la capacidad de los sistemas informáticos
+para el intercambio de datos con significado unívoco, compartida. La
+interoperabilidad semántica es un requisito para permitir que la máquina
+lógica computable, la inferencia, el descubrimiento de conocimiento, y la
+federación de datos entre sistemas de información.
+
+La interoperabilidad semántica es, por tanto, no concierne sólo a los
+envases de los datos (sintaxis), pero si a la transmisión simultánea del
+significado de los datos (semántica). Esto se logra mediante la adición de los
+datos acerca de los datos (metadatos), que une cada elemento de datos de un
+vocabulario controlado, compartida. El significado de los datos se transmiten
+con los datos en sí, en un "paquete de información" auto-descripción que es
+independiente de cualquier sistema de información. Es este vocabulario común, y
+sus enlaces asociados a una ontología, que proporciona la base de la
+interpretación y la capacidad de la máquina, la inferencia, y la lógica.
+
+interoperabilidad sintáctica es un requisito previo para la interoperabilidad
+semántica. interoperabilidad sintáctica se refiere a los mecanismos de
+envasado y de transmisión de datos. En la asistencia sanitaria, HL7 ha estado en
+uso durante más de treinta años (que es anterior a la tecnología de Internet y
+la web), y utiliza el tubo de Unix (|) como delimitador de datos. El estándar
+actual de Internet para el marcado de documentos XML es, que utiliza "<>" como
+delimitador de datos. Los delimitadores de datos no transmiten significado para
+los datos que no sean de estructurar los datos. Sin un diccionario de datos para
+traducir el contenido de los delimitadores, los datos permanecen sin sentido. Si
+bien hay muchos intentos de crear diccionarios de datos y modelos de información
+a asociarse con estos mecanismos de empaquetamiento de datos, ninguno ha sido
+práctico de implementar. Esto sólo ha perpetuado la "confusión" en curso de
+los datos y la incapacidad para el intercambio de datos con significado.
 
 
 - https://es.wikipedia.org/wiki/Interoperabilidad
@@ -66,6 +93,21 @@ los detalles de cómo se debe utilizar.
 
 - https://es.wikipedia.org/wiki/WSDL
 - https://en.wikipedia.org/wiki/Web_Services_Description_Language
+
+REST
+****
+
+La Transferencia de Estado Representacional (Representational State Transfer) o
+REST es un estilo de arquitectura software para sistemas hipermedia distribuidos
+como la World Wide Web. El proposito es mejorar el rendimiento, escalabilidad,
+simplicidad, modificabilidad, Visibilidad, Portabilidad y Fiabilidad de los
+ servicios. El término se originó en el año 2000, en una tesis doctoral sobre la
+web escrita por Roy Fielding, uno de los principales autores de la especificación
+del protocolo HTTP y ha pasado a ser ampliamente utilizado por la comunidad de
+desarrollo.
+
+- https://es.wikipedia.org/wiki/Representational_State_Transfer
+- https://en.wikipedia.org/wiki/Representational_state_transfer
 
 
 WADL
