@@ -101,7 +101,7 @@ La Transferencia de Estado Representacional (Representational State Transfer) o
 REST es un estilo de arquitectura software para sistemas hipermedia distribuidos
 como la World Wide Web. El proposito es mejorar el rendimiento, escalabilidad,
 simplicidad, modificabilidad, Visibilidad, Portabilidad y Fiabilidad de los
- servicios. El término se originó en el año 2000, en una tesis doctoral sobre la
+servicios. El término se originó en el año 2000, en una tesis doctoral sobre la
 web escrita por Roy Fielding, uno de los principales autores de la especificación
 del protocolo HTTP y ha pasado a ser ampliamente utilizado por la comunidad de
 desarrollo.
