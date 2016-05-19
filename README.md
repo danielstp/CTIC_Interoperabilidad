@@ -17,3 +17,5 @@ run the generation script:
 ```
 ./Genera.sh
 ```
+
+the script will generate a pdf file named `Interoperabilidad.pdf`  
